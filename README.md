@@ -88,13 +88,14 @@ Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Ext
 Random Forest estimators
 
 <img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG">
+
 SDG vs. GDP scores
 
-![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG" width="300">
 
 Census vs. GDP scores
 
-![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/Censusv.GDPtable.PNG" width="300">
 
 ### 6. Feature importance
 
