@@ -17,7 +17,7 @@ In addition to the sdg the gross domestic product is also often utilized to meas
 I attempted to create a model that could predict the sdg's or GDP for Metropolitan Statistical Areas and states in the US. My hope is that I can use the insight from this project to collect local data and predict the current and future state of a community and focus on the most important features to improve any areas under performing indicators.
 
 ### 2. Notebook Structure
-- All tasks are placed in __[my project repo(https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP)
+- All tasks are placed in [my project repo](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP)
 
 
 ```
@@ -40,19 +40,19 @@ Datafolio
 ### 3. Data Collection
 **Data Selection:**
 
-__[American Community Survery (ACS):](https://www.census.gov/programs-surveys/acs/)
+[American Community Survery (ACS):](https://www.census.gov/programs-surveys/acs/)
 
 The Census Data offers an API to collect data. The data I utilized came from the ACS. Selection of the census features were based on the data index in the UN sdg dateset. 
 
 "The American Community Survey (ACS) helps local officials, community leaders, and businesses understand the changes taking place in their communities. It is the premier source for detailed population and housing information about our nation." *Census Bureau*
 
-__[Bureau of Economic Analysis (BEA) Survey:](https://www.bea.gov/about/who-we-are)
+[Bureau of Economic Analysis (BEA) Survey:](https://www.bea.gov/about/who-we-are)
 
 Economist at BEA produce the gross domestic product and other statistics for the Department of Commerce for use by numerous entities. 
 
 "The Bureau of Economic Analysis (BEA) promotes a better understanding of the U.S. economy by providing the most timely, relevant, and accurate economic accounts data in an objective and cost-effective manner." *BEA
 
-__[Sustainable Development Goals (SDG):](https://sdgs.un.org/goals)
+[Sustainable Development Goals (SDG):](https://sdgs.un.org/goals)
 
 "The Sustainable Development Goals or Global Goals are a collection of 17 interlinked global goals designed to be a "blueprint to achieve a better and more sustainable future for all". The SDGs were set up in 2015 by the United Nations General Assembly and are intended to be achieved by the year 2030." *-UN*
 
@@ -60,26 +60,11 @@ __[Sustainable Development Goals (SDG):](https://sdgs.un.org/goals)
 
 The data from the Census Bureau utilized to create features for the models were obtained from multiple tables on the Census API. SDG and GDP data were downloaded from there respective sites. Once the requisite data was obtained it was then merged. Nulls were taken into consideration and were either removed or replaced with the column average depending on the situation. After data cleaning and wrangling was complete over ten datasets were created to model with and create the web apps. Much time was taken to format the different dateset for the DASH plotly and Streamlit web apps due to there different required formats. 
 
-![Alt text](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost/blob/master/Part_II/images/results.png)
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/GDPv.SDG.PNG)
 
 
 
 ### 5. Modeling
-The same network structure optimized in Part_I was applied here without further optimization. See __[Part_I](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost/blob/master/Part_I/README.md)__ for explanation.
 
-![Alt text](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost/blob/master/Part_I/images/network_architecture.png)
 
 ### 6. Results
-The 1D CNN was able to predict the correct techno label with 66% accuracy on the training set and 56% accuracy on the test set. Interestingly, a network consisting of only one convolution layer produced similar results, so the network did not appear to be learning more with additional layers. Compared to Part_I, this model could likely have been improved with a different dimension reduction layer other than global max pooling, which is probably recognizing if a certain musical sound is present anywhere in the sound clip and could be contributing to misclassification.
-
-![Alt text](https://github.com/amytaylor330/CNN_for_Dance_Music_Classification_repost/blob/master/Part_II/images/results.png)
-
-Also not surprisingly, the easiest label to recognize was Drumcode (which has a very distinct flavor), while the hardest was Lobster Theramin, which is certainly more diverse, but also had the least number of samples available.
-
-|Label| Total # in Test Set| Overall Accuracy| Most likely to be Misclassified As|
-|---|---|---|---|
-|Kompakt| 440| 53% | Drumcode > Ostgut Ton |
-|Drumcode|320| 82.2 % | Kompakt or Dirtybird |
-|Dirtybird|210| 55.2% | Drumcode |
-|Lobster Theramin| 140| 20% | Drumcode or Dirtybird |
-|Ostgut ton| 320| 49.9% | Kompakt |
