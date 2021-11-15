@@ -67,20 +67,30 @@ The data from the Census Bureau utilized to create features for the models were 
 
 ### 5. Modeling
 
-Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Extra Tree. 
-
-![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Extra Tree. The model selected for optimization was Random Forest. The primary tool used to optimize the model was scikit-learn's Grid Search CV. The best parameters selected {'max_depth': 4, 'n_estimators': 150}. Cross-Validation = 5.
 
 SDG vs. GDP scores
 
-![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
 
 Census vs. GDP scores
 
+![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+
 ### 6. Deployed Web App
 
+DASH plotly
+
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/bach_gdp_dash.PNG)
+
+DASH Ployly 
 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/model_dash.PNG)
 
 ### 7. Results
+
+The GDP and the Census variables I utilized didn't correlate well with the sustainable development goals. The best model for sdg vs. GDP was XGBoost (test-.99, test-.39).
+
+The Census features I chose correlated well to the US GDP. The best model for Census vs. GDP was Random Forest using Grid Search optimization (test-.96, test-.93).
+
+The best feature was Bachelor Attainment in both models. 
