@@ -71,7 +71,11 @@ Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Ext
 
 ![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
 
+SDG vs. GDP scores
+
 ![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+
+Census vs. GDP scores
 
 ### 6. Deployed Web App
 
