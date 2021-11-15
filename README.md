@@ -85,9 +85,9 @@ Census bureau corellation
 
 Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Extra Tree. The model selected for optimization was Random Forest. The primary tool used to optimize the model was scikit-learn's Grid Search CV. The best parameters selected {'max_depth': 4, 'n_estimators': 150}. Cross-Validation = 5.
 
-Random Fore
+Random Forest estimators
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/model_dash.PNG)
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG)
 
 SDG vs. GDP scores
 
