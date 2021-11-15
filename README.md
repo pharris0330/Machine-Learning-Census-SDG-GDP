@@ -66,13 +66,16 @@ The data from the Census Bureau utilized to create features for the models were 
 
 SDG Census corellation
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations%20SDG%20Census.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations%20SDG%20Census.PNG" width="300">
 
 Census bureau corellation
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations.PNG" width="300">
 
 2019 SDG score statistics
+
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations.PNG" width="300">
+
 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/stats%20sdg.PNG)
 
@@ -87,7 +90,7 @@ Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Ext
 
 Random Forest estimators
 
-<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG" width="300">
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG">
 SDG vs. GDP scores
 
 ![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
