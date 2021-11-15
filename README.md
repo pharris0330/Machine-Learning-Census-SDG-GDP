@@ -74,14 +74,11 @@ Census bureau corellation
 
 2019 SDG score statistics
 
-<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations.PNG" width="300">
-
-
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/stats%20sdg.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/stats%20sdg.PNG" width="300">
 
 2019 GDP statistics
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/stats%20gdp.PNG)
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/stats%20gdp.PNG" width="300">
 
 
 ### 5. Modeling
