@@ -65,14 +65,14 @@ The data from the Census Bureau utilized to create features for the models were 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/bachv.gdp.PNG)
 
 
-
 ### 5. Modeling
+
 
 ### 6. Deployed Web App
 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/bach_gdp_dash.PNG)
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/bach_gdp_dash.PNG)
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/model_dash.PNG)
 
 
 ### 6. Results
