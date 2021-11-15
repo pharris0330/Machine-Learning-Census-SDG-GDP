@@ -1,7 +1,7 @@
 # AdaBoost and Random Forest Regression of GDP and sustainable development goals
 
 ## Project Summary
-This report explains how I constructed a regression model to to conduct an analysis of indicators and determine the strength of those feautures to predict economic/SDG gsuccess with the ultimate goal of using the findings to improve local communities. 
+This report explains how I constructed a regression model to conduct an analysis of economic success indicators to determine the strength of feautures. The project will use machine learning to predict economic/sustainable development goal success with the ultimate goal of using the findings to improve local communities. 
 
 Tasks performed in this repo include:
 - Webscraping Census data and collecting Bereau of Economic Analysis data
@@ -10,11 +10,11 @@ Tasks performed in this repo include:
 - Created DASH Plotly/Streamlit webapp to display findings
 
 ### 1. Background
-**Inspiration:** The sustainable development goals (sdg) are a tool created by the United Nations to determine how areas throught the planet are performing in numerous areas important to the development of a region. 
+**Inspiration:** Machine learning can be a powerful in the area of local community develoment. The sustainable development goals (sdg) are a tool created by the United Nations to determine how areas throught the planet are performing in numerous areas important to the development of a region.The sdg can be a useful benchmark in finding strong local development variables. 
 
-In addition to the sdg the gross domestic product is also often utilized to measure econmic success. I am interested in finding a feature of economic success with the hopes of better understanding how to improve the economics of my local community. 
+In addition to the sdg the gross domestic product is also often utilized to measure economic success of an area. I am interested in finding a feature of economic success with the hopes of better understanding how to improve the economics of my local community. 
 
-I attempted to create a model that could predict the sdg's or GDP for Metropolitan Statistical Areas and states in the US. My hope is that I can use the insight from this project to collect local data and predict the current and future state of a community and focus on the most important features to improve any areas under performing indicators.
+I attempted to create a model that could predict the sdg's or GDP for Metropolitan Statistical Areas and states in the US. My hope is that I can use the insight from this project to collect local data and predict the current and future state of a community and focus on the most important features to improve any under performing areas.
 
 ### 2. Notebook Structure
 - All tasks are placed in [my project repo](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP)
@@ -64,6 +64,13 @@ The data from the Census Bureau utilized to create features for the models were 
 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/bachv.gdp.PNG)
 
+SDG Census corellation
+
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations%20SDG%20Census.PNG)
+
+Census bureau corellation
+
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/coorelations.PNG)
 
 ### 5. Modeling
 
@@ -77,7 +84,17 @@ Census vs. GDP scores
 
 ![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
 
-### 6. Deployed Web App
+### 6. Feature importance
+
+Median income rose to the top of feature importance with the SDG Census data. 
+
+![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/feature%20importance%20sdg%20census.PNG)
+
+Education attainment rose to the top of feature importance with the GDP Census data. 
+
+![ALt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/feature%20importance%20census%20gdp.PNG)
+
+### 6. Dashboards
 
 DASH plotly
 
@@ -89,8 +106,17 @@ DASH Ployly
 
 ### 7. Results
 
-The GDP and the Census variables I utilized didn't correlate well with the sustainable development goals. The best model for sdg vs. GDP was XGBoost (test-.99, test-.39).
+The Census variables I utilized didn't correlate well with the sustainable development goals. The best model for sdg vs. GDP was XGBoost (test-.99, test-.39).
 
 The Census features I chose correlated well to the US GDP. The best model for Census vs. GDP was Random Forest using Grid Search optimization (test-.96, test-.93).
 
-The best feature was Bachelor Attainment in both models. 
+The median income was starkly higher corellated with the SDG score than the GDP. With further study it would be interesting to see why that if there is a particular reason for that finding. It is also interesting to note that the census features seem to fit better with the GDP than the developmnent scores. Many studies state "economic development" seems to reach more of the populace than "economic growth".
+
+The best feature was Education Attainment in both models. Employment and level of home occupancy were also at top. The presence of graduate degrees weights heavily above the other features. For economical attainment of success highly educated populace is the norm.
+
+In follow on studies I plan to include environmental, social, and behavioral data. Local data, though not as easy to obtain, would prove very helpful. With further study this insight could prove helpful to improve the GDP and SDG of local communities.
+
+ 
+
+
+
