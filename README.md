@@ -1,4 +1,4 @@
-# AdaBoost and Random Forest Regression of GDP and sustanable development goals
+# AdaBoost and Random Forest Regression of GDP and sustainable development goals
 
 ## Project Summary
 This report explains how I constructed a regression model to to conduct an analysis of indicators and determine the strength of those feautures to predict economic/SDG gsuccess with the ultimate goal of using the findings to improve local communities. 
@@ -67,6 +67,11 @@ The data from the Census Bureau utilized to create features for the models were 
 
 ### 5. Modeling
 
+Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Extra Tree. 
+
+![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
+
+![Census vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
 
 ### 6. Deployed Web App
 
@@ -74,5 +79,4 @@ The data from the Census Bureau utilized to create features for the models were 
 
 ![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/model_dash.PNG)
 
-
-### 6. Results
+### 7. Results
