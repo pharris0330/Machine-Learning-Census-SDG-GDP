@@ -87,8 +87,7 @@ Modeling was conducted with KNN, AdaBoost, Random Forest, Decision Tree, and Ext
 
 Random Forest estimators
 
-![Alt text](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG)
-
+<img src="https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/random%20forest%20estimators.PNG" width="300">
 SDG vs. GDP scores
 
 ![SDG vs. GDP scores](https://github.com/pharris0330/Machine-Learning-Census-SDG-GDP/blob/main/Images/SDGv.GDPtable.PNG)
